@@ -54,6 +54,10 @@ body {
   fill: #292d33;
 }
 
+.logo {
+  display: none;
+}
+
 .logo-svg {
   width: 9rem;
   height: 2.75rem;
