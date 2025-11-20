@@ -252,8 +252,20 @@ body {
   gap: 1.875rem;
 }
 
-.steps-item {
-  min-width: 20.625rem;
+.steps-item-1 {
+  order: 0;
+}
+
+.steps-item-2 {
+  order: 1;
+}
+
+.steps-item-3 {
+  order: 2;
+}
+
+.steps-item-4 {
+  order: 3;
 }
 
 .steps-num {
