@@ -206,8 +206,8 @@ body {
   position: relative;
 }
 
-.slider-button-prev,
-.slider-button-next {
+.slider-button-next,
+.slider-button-prev {
   height: 100%;
   border: 1px solid rgba(235, 235, 240, 0.2);
   display: flex;
@@ -283,22 +283,6 @@ body {
   margin-bottom: 0.625rem;
 }
 
-.steps-item-1 {
-  order: 0;
-}
-
-.steps-item-2 {
-  order: 1;
-}
-
-.steps-item-3 {
-  order: 2;
-}
-
-.steps-item-4 {
-  order: 3;
-}
-
 .steps-text {
   font-weight: 400;
   font-size: 16px;
@@ -324,6 +308,20 @@ body {
   background: #5c8ee6;
   width: 40px;
   margin-right: 20px;
+}
+
+.steps-buttons {
+  display: none;
+  height: 40px;
+  justify-content: flex-end;
+}
+
+.steps-button-prev,
+.steps-button-next {
+  background: #5c8ee6;
+  height: 100%;
+  width: 60px;
+  cursor: pointer;
 }
 
 @media (max-width: 1707px) {
@@ -501,6 +499,9 @@ body {
   }
   .close-menu .mobile-menu-line:nth-child(3) {
     transform: rotate(-45deg) translateY(-10px);
+  }
+  .steps-buttons {
+    display: flex;
   }
 }
 
