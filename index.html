@@ -170,9 +170,6 @@
             <p class="header-features-text">Оперативное производство</p>
           </li>
         </ul>
-        <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>
-
         <!-- If we need navigation buttons -->
         <div class="slider-buttons">
           <div class="slider-button-prev">
@@ -194,33 +191,53 @@
   <section class="section section-light">
     <div class="container">
       <div class="seporator"></div>
+
       <h2 class="section-title">схема работы</h2>
-      <ol class="steps">
-        <li class="steps-item">
-          <span class="steps-num">01</span>
-          <h3 class="steps-title">Знакомство</h3>
-          <p class="steps-text">Безусловно, сплочённость команды профессионалов позволяет оценить значение форм
-            воздействия.</p>
-          <a href="#" class="steps-link">Оставить заявку</a>
-        </li>
-        <li class="steps-item">
-          <span class="steps-num">02</span>
-          <h3 class="steps-title">Заключение договора</h3>
-          <p class="steps-text">Лишь интерактивные прототипы призваны к ответу.</p>
-        </li>
-        <li class="steps-item">
-          <span class="steps-num">03</span>
-          <h3 class="steps-title">Производство</h3>
-          <p class="steps-text">А также стремящиеся вытеснить традиционное производство, нанотехнологии функционально
-            разнесены на независимые элементы.</p>
-        </li>
-        <li class="steps-item">
-          <span class="steps-num">04</span>
-          <h3 class="steps-title">Доставка</h3>
-          <p class="steps-text">В частности, экономическая повестка сегодняшнего дня говорит о возможностях
-            приоритизации разума над эмоциями.</p>
-        </li>
-      </ol>
+
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <ol class="swiper-wrapper steps">
+          <!-- Slides -->
+          <li class="swiper-slide steps-item-1">
+            <span class="steps-num">01</span>
+            <h3 class="steps-title">Знакомство</h3>
+            <p class="steps-text">Безусловно, сплочённость команды профессионалов позволяет оценить значение форм
+              воздействия.</p>
+            <a href="#" class="steps-link">Оставить заявку</a>
+          </li>
+          <li class="swiper-slide steps-item-2">
+            <span class="steps-num">02</span>
+            <h3 class="steps-title">Заключение договора</h3>
+            <p class="steps-text">Лишь интерактивные прототипы призваны к ответу.</p>
+          </li>
+          <li class="swiper-slide steps-item-3">
+            <span class="steps-num">03</span>
+            <h3 class="steps-title">Производство</h3>
+            <p class="steps-text">А также стремящиеся вытеснить традиционное производство, нанотехнологии функционально
+              разнесены на независимые элементы.</p>
+          </li>
+          <li class="swiper-slide steps-item-4">
+            <span class="steps-num">04</span>
+            <h3 class="steps-title">Доставка</h3>
+            <p class="steps-text">В частности, экономическая повестка сегодняшнего дня говорит о возможностях
+              приоритизации разума над эмоциями.</p>
+          </li>
+        </ol>
+        <!-- If we need navigation buttons -->
+        <div class="slider-buttons">
+          <div class="slider-button-prev">
+            <svg width="60px" height="40px">
+              <use href="img/sprite.svg#arr-prev"></use>
+            </svg>
+          </div>
+          <div class="slider-button-next">
+            <svg width="60px" height="40px">
+              <use href="img/sprite.svg#arr-next"></use>
+            </svg>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- /.conteiner -->
   </section>

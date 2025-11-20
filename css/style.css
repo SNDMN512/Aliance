@@ -196,16 +196,18 @@ body {
 }
 
 .slider-buttons {
+  margin: 0;
   display: none;
   height: 44px;
+  position: relative;
 }
 
 .slider-button-prev,
 .slider-button-next {
   height: 100%;
-  flex-basis: 50%;
   border: 1px solid rgba(235, 235, 240, 0.2);
   display: flex;
+  flex-basis: 50%;
   align-items: center;
   justify-content: center;
   cursor: pointer;
@@ -268,12 +270,29 @@ body {
 }
 
 .steps-title {
+  display: flex;
   font-weight: 400;
   font-size: 1.75rem;
   line-height: 160%;
   color: #292d33;
   margin-top: 1.875rem;
   margin-bottom: 0.625rem;
+}
+
+.steps-item-1 {
+  order: 0;
+}
+
+.steps-item-2 {
+  order: 1;
+}
+
+.steps-item-3 {
+  order: 2;
+}
+
+.steps-item-4 {
+  order: 3;
 }
 
 .steps-text {
