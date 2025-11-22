@@ -344,7 +344,7 @@ body {
 
 @media (max-width: 1500px) {
   html {
-    font-size: 13px;
+    font-size: 14px;
   }
   .header-logo {
     padding: 2rem;
@@ -363,9 +363,12 @@ body {
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1270px) {
+  html {
+    font-style: 13px;
+  }
   .container {
-    max-width: 70rem;
+    max-width: 120rem;
   }
   .header-phone {
     display: none;
@@ -382,7 +385,7 @@ body {
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1070px) {
   html {
     font-size: 12px;
   }
