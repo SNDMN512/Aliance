@@ -92,3 +92,23 @@ const swiper = new Swiper(".swiper", {
     },
   },
 });
+
+const swiperBlog = new Swiper(".blog-slider", {
+  speed: 400,
+  loop: true,
+  slidesPerView: 2,
+  spaceBetween: 30,
+  navigation: {
+    nextEl: ".blog-button-next",
+    prevEl: ".blog-button-prev",
+  },
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+    },
+    // when window width is >= 640px
+    769: {
+      slidesPerView: 2,
+    },
+  },
+});
