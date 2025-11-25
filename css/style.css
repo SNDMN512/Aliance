@@ -793,6 +793,9 @@ body {
   .trademark-card {
     grid-template-columns: auto auto;
   }
+  .cta-image {
+    width: 40%;
+  }
 }
 
 @media (max-width: 1070px) {
@@ -837,6 +840,9 @@ body {
   .navbar-button .button-icon {
     display: block;
     fill: #ffffff;
+  }
+  .cta-image {
+    display: none;
   }
 
   .mobile-menu {
@@ -980,5 +986,12 @@ body {
   }
   .clients-logo-item {
     flex-basis: 50%;
+  }
+  .cta-form-button {
+    font-size: 0.75rem;
+  }
+  .notify-text {
+    font-size: 12px;
+    max-width: 300px;
   }
 }
