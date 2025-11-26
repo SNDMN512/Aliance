@@ -68,7 +68,7 @@ body {
 }
 
 .header-image {
-  background-image: url("../img/header-bg.svg");
+  background-image: url("../img/main.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
