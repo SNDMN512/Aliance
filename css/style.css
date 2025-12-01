@@ -43,7 +43,22 @@ body {
 .navbar-light {
   background-color: #fff;
   color: #292d33;
+}
+
+.logo-dark {
+  display: none;
+}
+
+.navbar-scroll {
   height: 4.625rem;
+}
+
+.navbar-light .logo-light {
+  display: none;
+}
+
+.navbar-light .logo-dark {
+  display: block;
 }
 
 .phone-icon {
@@ -52,10 +67,6 @@ body {
 
 .navbar-light .header-logo-path {
   fill: #292d33;
-}
-
-.logo {
-  display: none;
 }
 
 .logo-svg {
@@ -68,7 +79,7 @@ body {
 }
 
 .header-image {
-  background-image: url("../img/main.svg");
+  background-image: url("/img/main.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -157,6 +168,54 @@ body {
   color: inherit;
 }
 
+.header-pages-internal {
+  background-color: #f0f2f5;
+}
+
+.title-pages-internal {
+  font-family: "Bebas Neue";
+  margin: 0;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 120%;
+  color: #292d33;
+}
+
+.breadcrumb {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 50px;
+  list-style: none;
+  display: flex;
+  gap: 0.625rem;
+}
+
+.breadcrumb .page-list::after {
+  content: "–";
+  padding-left: 10px;
+  color: #828a99;
+}
+
+.breadcrumb .page-list:last-child::after {
+  content: none;
+}
+
+.page-link {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  color: #828a99;
+}
+
+.page-title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  color: #292d33;
+}
+
 .button {
   font-weight: 600px;
   font-size: 1rem;
@@ -184,6 +243,14 @@ body {
 }
 
 .seporator {
+  background-color: #5c8ee6;
+  width: 9.375rem;
+  height: 2px;
+}
+
+.seporator-pages-internal {
+  margin-top: 50px;
+  margin-bottom: 30px;
   background-color: #5c8ee6;
   width: 9.375rem;
   height: 2px;
@@ -357,14 +424,21 @@ body {
   width: 3.75rem;
 }
 
-.steps-buttons {
+/* .steps-buttons {
   display: none;
-}
+} */
 
 .primary-buttons-wrapper {
-  display: flex;
+  display: none;
   align-items: center;
   height: 3.75rem;
+  justify-content: flex-end;
+}
+
+.blog-buttons {
+  display: flex;
+  align-items: center;
+  height: 1.875rem;
   justify-content: flex-end;
 }
 
@@ -1136,9 +1210,13 @@ body {
   .close-menu .mobile-menu-line:nth-child(3) {
     transform: rotate(-45deg) translateY(-10px);
   }
-  .steps-buttons {
+  .primary-buttons-wrapper {
     display: flex;
+    align-items: center;
+    height: 3.75rem;
+    justify-content: flex-end;
   }
+
   .card {
     flex-basis: 50%;
   }

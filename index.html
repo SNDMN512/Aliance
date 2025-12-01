@@ -27,7 +27,7 @@
 </head>
 
 
-<body>
+<body class="front-page">
   <div class="mobile-menu">
     <ul class="mobile-menu-nav">
       <li class="mobile-menu-nav-item"><a href="#" class="mobile-menu-link">О компании</a></li>
@@ -90,43 +90,43 @@
       </svg>
     </a>
   </div>
+  <nav class="navbar">
+    <a href="#" class="mobile-menu-toggle">
+      <div class="mobile-menu-line"></div>
+      <div class="mobile-menu-line"></div>
+      <div class="mobile-menu-line"></div>
+    </a>
+    <a href="./" class="header-logo">
+      <svg class="logo-svg logo-light">
+        <use href="img/sprite.svg#logo-light"></use>
+      </svg>
+      <svg class="logo-svg logo-dark">
+        <use href="img/sprite.svg#logo"></use>
+      </svg>
+    </a>
+    <ul class="header-nav">
+      <li class="header-nav-item"><a href="/about.html" class="header-nav-link">О компании</a></li>
+      <li class="header-nav-item"><a href="#" class="header-nav-link">Контрактное производство</a></li>
+      <li class="header-nav-item"><a href="#" class="header-nav-link">Собственные торговые марки</a></li>
+      <li class="header-nav-item"><a href="#" class="header-nav-link">Новости</a></li>
+      <li class="header-nav-item"><a href="#" class="header-nav-link">Контакты</a></li>
+    </ul>
+    <div class="header-phone">
+      <svg class="phone-icon" width="24px" height="24px">
+        <use href="img/sprite.svg#phone"></use>
+      </svg>
+      <a href="tel:+74996861014" class="header-phone-link">+7 (499) 686-10-14
+      </a>
+    </div>
+    <button class="navbar-button button" data-toggle="modal">
+      <svg class="button-icon" width="24px" height="24px">
+        <use href="img/sprite.svg#phone"></use>
+      </svg>
+      <span class="button-text">Получить консультацию</span>
+    </button>
+  </nav>
+  <!-- /.navbar -->
   <header class="header header-image">
-    <nav class="navbar">
-      <a href="#" class="mobile-menu-toggle">
-        <div class="mobile-menu-line"></div>
-        <div class="mobile-menu-line"></div>
-        <div class="mobile-menu-line"></div>
-      </a>
-      <a href="./" class="header-logo">
-        <svg class="logo-svg logo-light">
-          <use href="img/sprite.svg#logo-light"></use>
-        </svg>
-        <svg class="logo-svg logo">
-          <use href="img/sprite.svg#logo"></use>
-        </svg>
-      </a>
-      <ul class="header-nav">
-        <li class="header-nav-item"><a href="#" class="header-nav-link">О компании</a></li>
-        <li class="header-nav-item"><a href="#" class="header-nav-link">Контрактное производство</a></li>
-        <li class="header-nav-item"><a href="#" class="header-nav-link">Собственные торговые марки</a></li>
-        <li class="header-nav-item"><a href="#" class="header-nav-link">Новости</a></li>
-        <li class="header-nav-item"><a href="#" class="header-nav-link">Контакты</a></li>
-      </ul>
-      <div class="header-phone">
-        <svg class="phone-icon" width="24px" height="24px">
-          <use href="img/sprite.svg#phone"></use>
-        </svg>
-        <a href="tel:+74996861014" class="header-phone-link">+7 (499) 686-10-14
-        </a>
-      </div>
-      <button class="navbar-button button" data-toggle="modal">
-        <svg class="button-icon" width="24px" height="24px">
-          <use href="img/sprite.svg#phone"></use>
-        </svg>
-        <span class="button-text">Получить консультацию</span>
-      </button>
-    </nav>
-    <!-- /.navbar -->
     <div class="container">
       <div class="header-content">
         <div class="seporator"></div>
@@ -136,7 +136,6 @@
           существующих паттернов поведения.</p>
         <div class="button header-button">Подробнее о компании</div>
       </div>
-
       <!-- Slider main container -->
       <div class="swiper">
         <!-- Additional required wrapper -->
@@ -144,31 +143,31 @@
           <!-- Slides -->
           <li class="swiper-slide header-features-item">
             <svg width="36px" height="36px">
-              <use href="img/sprite.svg#time"></use>
+              <use href="/img/sprite.svg#time"></use>
             </svg>
             <p class="header-features-text">Непрерывная работа c 2017 года</p>
           </li>
           <li class="swiper-slide header-features-item">
             <svg width="36px" height="36px">
-              <use href="img/sprite.svg#certificate"></use>
+              <use href="/img/sprite.svg#certificate"></use>
             </svg>
             <p class="header-features-text">Вся продукция сертифицирована</p>
           </li>
           <li class="swiper-slide header-features-item">
             <svg width="36px" height="36px">
-              <use href="img/sprite.svg#control"></use>
+              <use href="/img/sprite.svg#control"></use>
             </svg>
             <p class="header-features-text">Контроль качества на всех этапах</p>
           </li>
           <li class="swiper-slide header-features-item">
             <svg width="36px" height="36px">
-              <use href="img/sprite.svg#delivery"></use>
+              <use href="/img/sprite.svg#delivery"></use>
             </svg>
             <p class="header-features-text">Возможны поставки по всей России</p>
           </li>
           <li class="swiper-slide header-features-item">
             <svg width="36px" height="36px">
-              <use href="img/sprite.svg#speed"></use>
+              <use href="/img/sprite.svg#speed"></use>
             </svg>
             <p class="header-features-text">Оперативное производство</p>
           </li>
@@ -177,18 +176,17 @@
         <div class="slider-buttons">
           <div class="slider-button-prev">
             <svg width="36px" height="24px">
-              <use href="img/sprite.svg#arrow-prev"></use>
+              <use href="/img/sprite.svg#arrow-prev"></use>
             </svg>
           </div>
           <div class="slider-button-next">
             <svg width="36px" height="24px">
-              <use href="img/sprite.svg#arrow-next"></use>
+              <use href="/img/sprite.svg#arrow-next"></use>
             </svg>
           </div>
         </div>
       </div>
-    </div>
-    <!-- /.conteiner -->
+      <!-- /.conteiner -->
   </header>
   <!-- /.header -->
   <section class="section section-light">
@@ -228,12 +226,12 @@
         <div class="steps-buttons primary-buttons-wrapper">
           <div class="steps-button-prev primary-button-prev">
             <svg width="60px" height="40px">
-              <use href="img/sprite.svg#arr-prev"></use>
+              <use href="/img/sprite.svg#arr-prev"></use>
             </svg>
           </div>
           <div class="steps-button-next primary-button-next">
             <svg width="60px" height="40px">
-              <use href="img/sprite.svg#arr-next"></use>
+              <use href="/img/sprite.svg#arr-next"></use>
             </svg>
           </div>
         </div>
@@ -310,7 +308,7 @@
       <div class="trademark-cards">
         <div class="trademark-card">
           <svg class="trademark-card-logo">
-            <use href="img/sprite.svg#AGTECH"></use>
+            <use href="/img/sprite.svg#AGTECH"></use>
           </svg>
           <h3 class="trademark-card-title">Автохимия AG-Tech</h3>
           <p class="trademark-card-text">Для современного мира разбавленное изрядной долей эмпатии, рациональное
@@ -318,7 +316,7 @@
         </div>
         <div class="trademark-card">
           <svg class="trademark-card-logo">
-            <use href="img/sprite.svg#AP"></use>
+            <use href="/img/sprite.svg#AP"></use>
           </svg>
           <h3 class="trademark-card-title">Автохимия AP</h3>
           <p class="trademark-card-text">Для современного мира разбавленное изрядной долей эмпатии, рациональное
@@ -364,61 +362,61 @@
           <ul class="clients-list">
             <li class="clients-list-item">
               <svg width="30px" height="30px" class="client-list-icon">
-                <use href="img/sprite.svg#Vector-1"></use>
+                <use href="/img/sprite.svg#Vector-1"></use>
               </svg>
               Химические производства
             </li>
             <li class="clients-list-item">
               <svg width="30px" height="30px" class="client-list-icon">
-                <use href="img/sprite.svg#Vector-2"></use>
+                <use href="/img/sprite.svg#Vector-2"></use>
               </svg>
               Автомойки
             </li>
             <li class="clients-list-item">
               <svg width="30px" height="30px" class="client-list-icon">
-                <use href="img/sprite.svg#Vector-3"></use>
+                <use href="/img/sprite.svg#Vector-3"></use>
               </svg>
               Пищевая продукция
             </li>
             <li class="clients-list-item">
               <svg width="30px" height="30px" class="client-list-icon">
-                <use href="img/sprite.svg#Vector-4"></use>
+                <use href="/img/sprite.svg#Vector-4"></use>
               </svg>
               Лаки и краски
             </li>
             <li class="clients-list-item">
               <svg width="30px" height="30px" class="client-list-icon">
-                <use href="img/sprite.svg#Vector-5"></use>
+                <use href="/img/sprite.svg#Vector-5"></use>
               </svg>
               Косметические средства
             </li>
             <li class="clients-list-item">
               <svg width="30px" height="30px" class="client-list-icon">
-                <use href="img/sprite.svg#Vector-6"></use>
+                <use href="/img/sprite.svg#Vector-6"></use>
               </svg>
               Автомобильная косметика
             </li>
             <li class="clients-list-item">
               <svg width="30px" height="30px" class="client-list-icon">
-                <use href="img/sprite.svg#Vector-7"></use>
+                <use href="/img/sprite.svg#Vector-7"></use>
               </svg>
               Косметика по уходу за одеждой
             </li>
             <li class="clients-list-item">
               <svg width="30px" height="30px" class="client-list-icon">
-                <use href="img/sprite.svg#Vector-8"></use>
+                <use href="/img/sprite.svg#Vector-8"></use>
               </svg>
               Косметика по уходу за обувью
             </li>
             <li class="clients-list-item">
               <svg width="30px" height="30px" class="client-list-icon">
-                <use href="img/sprite.svg#Vector-9"></use>
+                <use href="/img/sprite.svg#Vector-9"></use>
               </svg>
               Строительные материалы
             </li>
             <li class="clients-list-item">
               <svg width="30px" height="30px" class="client-list-icon">
-                <use href="img/sprite.svg#Vector-10"></use>
+                <use href="/img/sprite.svg#Vector-10"></use>
               </svg>
               И многих других
             </li>
@@ -426,31 +424,31 @@
         </div>
         <div class="clients-logo-list">
           <a href="#" class="clients-logo-item">
-            <img src="img/client.png" alt="" class="clients-logo">
+            <img src="/img/client.png" alt="" class="clients-logo">
           </a>
           <a href="#" class="clients-logo-item">
-            <img src="img/client.png" alt="" class="clients-logo">
+            <img src="/img/client.png" alt="" class="clients-logo">
           </a>
           <a href="#" class="clients-logo-item">
-            <img src="img/client.png" alt="" class="clients-logo">
+            <img src="/img/client.png" alt="" class="clients-logo">
           </a>
           <a href="#" class="clients-logo-item">
-            <img src="img/client.png" alt="" class="clients-logo">
+            <img src="/img/client.png" alt="" class="clients-logo">
           </a>
           <a href="#" class="clients-logo-item">
-            <img src="img/client.png" alt="" class="clients-logo">
+            <img src="/img/client.png" alt="" class="clients-logo">
           </a>
           <a href="#" class="clients-logo-item">
-            <img src="img/client.png" alt="" class="clients-logo">
+            <img src="/img/client.png" alt="" class="clients-logo">
           </a>
           <a href="#" class="clients-logo-item">
-            <img src="img/client.png" alt="" class="clients-logo">
+            <img src="/img/client.png" alt="" class="clients-logo">
           </a>
           <a href="#" class="clients-logo-item">
-            <img src="img/client.png" alt="" class="clients-logo">
+            <img src="/img/client.png" alt="" class="clients-logo">
           </a>
           <a href="#" class="clients-logo-item">
-            <img src="img/client.png" alt="" class="clients-logo">
+            <img src="/img/client.png" alt="" class="clients-logo">
           </a>
         </div>
       </div>
@@ -502,12 +500,12 @@
           <div class="blog-buttons primary-buttons-wrapper">
             <div class="blog-button-prev primary-button-prev">
               <svg width="60px" height="40px">
-                <use href="img/sprite.svg#arr-prev"></use>
+                <use href="/img/sprite.svg#arr-prev"></use>
               </svg>
             </div>
             <div class="blog-button-next primary-button-next">
               <svg width="60px" height="40px">
-                <use href="img/sprite.svg#arr-next"></use>
+                <use href="/img/sprite.svg#arr-next"></use>
               </svg>
             </div>
           </div>
@@ -518,7 +516,7 @@
   </section>
   <section class="cta">
     <div class="bg-grey section-cta">
-      <img src="img/cta.png" alt="call to action" class="cta-image">
+      <img src="/img/cta.png" alt="call to action" class="cta-image">
       <div class="cta-form-wrapper container">
         <form action="#" class="cta-form">
           <h2 class="section-title cta-form-title">Хотите сотрудничать?</h2>
@@ -540,7 +538,7 @@
             <button type="submit" class="button cta-form-button">Отправить заявку</button>
             <div class="notify">
               <svg width="14px" height="14px">
-                <use href="img/sprite.svg#icon"></use>
+                <use href="/img/sprite.svg#icon"></use>
               </svg>
               <p class="notify-text">Обращаясь к нам вы получаете не только профессиональную работу, но и абсолютную
                 конфиденциальность информации!</p>
@@ -555,30 +553,30 @@
     <div class="container">
       <div class="footer-top">
         <svg class="logo-svg footer-logo">
-          <use href="img/sprite.svg#logo"></use>
+          <use href="/img/sprite.svg#logo"></use>
         </svg>
         <div class="footer-info">
           <svg class="address-svg" width="24px" height="24px">
-            <use href="img/sprite.svg#mark"></use>
+            <use href="/img/sprite.svg#mark"></use>
           </svg>
           <address class="footer-info-address">г. Москва, Холодильный пер. 4к1с8</address>
         </div>
         <a href="tel:+74996861014" class="footer-phone">+7 (499) 686-10-14</a>
         <div class="footer-info">
           <svg class="mail-svg" width="24px" height="24px">
-            <use href="img/sprite.svg#mail"></use>
+            <use href="/img/sprite.svg#mail"></use>
           </svg>
           <a href="mailto:a.dragunov@tdaliance.ru" class="footer-info-email">a.dragunov@tdaliance.ru</a>
         </div>
         <div class="footer-social">
           <a href="" class="footer-social-link">
             <svg class="vk-svg" width="24px" height="24px">
-              <use href="img/sprite.svg#vk"></use>
+              <use href="/img/sprite.svg#vk"></use>
             </svg>
           </a>
           <a href="" class="footer-social-link">
             <svg class="inst-svg" width="24px" height="24px">
-              <use href="img/sprite.svg#inst"></use>
+              <use href="/img/sprite.svg#inst"></use>
             </svg>
           </a>
         </div>
