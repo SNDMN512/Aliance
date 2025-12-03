@@ -131,7 +131,7 @@
       <h2 class="title-pages-internal">о компании</h2>
       <nav>
         <ul class="breadcrumb">
-          <li class="page-list"><a href="../Aliance/index.html" class="page-link">Главная</a></li>
+          <li class="page-list"><a href="/index.php" class="page-link">Главная</a></li>
           <li aria-current="page"><span class="page-title">О компании</span></li>
         </ul>
       </nav>
