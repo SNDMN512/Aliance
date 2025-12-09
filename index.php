@@ -529,7 +529,7 @@
         даже
         в самых сложных случаях!
       </p>
-      <form action="#" class="modal-form">
+      <form action="handler.php" method="POST" class="modal-form">
         <div class="input-group-wrapper input-group-vertical">
           <div class="input-group modal-input-group">
             <input
@@ -563,7 +563,7 @@
     </div>
   </div>
   <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/just-validate.production.min.js"></script>
   <script src="js/main.js"></script>
 </body>
-
 </html>

@@ -790,6 +790,22 @@ body {
   padding: 0 10px;
 }
 
+.input.is-invalid {
+  border: 1px solid red;
+}
+
+.just-validate-error-label {
+  position: absolute;
+  font-style: 0.8rem;
+  top: 0;
+  right: 0.625rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  background-color: inherit;
+  transform: translateY(-50%);
+  display: inline-block;
+}
+
 .cta-form-footer {
   display: flex;
   align-items: center;
